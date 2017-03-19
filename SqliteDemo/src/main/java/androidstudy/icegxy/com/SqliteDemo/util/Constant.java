@@ -9,6 +9,6 @@ public class Constant {
 
     public static final int DATABASE_VERSION = 1;
 
-    public static final String TABLE_NAME = "";
+    public static final String TABLE_NAME = "person";
 
 }

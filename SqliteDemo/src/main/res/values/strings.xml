@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">AndroidStudy</string>
     <string name="createDB">创建数据库</string>
+    <string name="createTable">新建数据表</string>
+    <string name="insertData">插入数据</string>
+    <string name="delData">删除数据</string>
+    <string name="updateData">修改数据</string>
+    <string name="selectData">查询数据</string>
 </resources>

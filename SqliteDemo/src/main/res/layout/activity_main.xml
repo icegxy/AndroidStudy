@@ -3,12 +3,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="androidstudy.icegxy.com.SqliteDemo.activity.MainActivity">
+    tools:context="androidstudy.icegxy.com.SqliteDemo.activity.MainActivity"
+    android:orientation="vertical">
 
     <Button
+        android:id="@+id/btn_createDB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/createDB"
         android:onClick="createDB"/>
+
+    <Button
+        android:id="@+id/btn_createTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/createTable"
+        android:onClick="createTable"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_insertData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insertData"
+        android:onClick="insertData"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_delData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delData"
+        android:onClick="deleteData"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_updateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/updateData"
+        android:onClick="updateData"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_selectData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectData"
+        android:onClick="selectData"
+        android:layout_marginTop="15dp"/>
 
 </LinearLayout>
